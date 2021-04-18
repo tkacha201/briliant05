@@ -868,25 +868,25 @@ section
 }
 .feature_image
 {
-	width: 100%;
+	width: 80%;
 }
 .feature_image img
 {
-	max-width: 100%;
+	max-width: 80%;
 }
-.feature_content
+/* .feature_content
 {
 	width: 100%;
 	background: #FFFFFF;
 	padding-left: 54px;
 	padding-top: 63px;
-	padding-bottom: 89px;
+	padding-bottom: 89px;¬
 	padding-right: 40px;
-}
-.feature_text
+} */
+/* .feature_text
 {
 	margin-top: 34px;
-}
+} */
 
 /*********************************
 8. Text Section

@@ -1308,3 +1308,66 @@ section
 {
 	color: #FFFFFF;
 }
+
+/*********************************
+ ACCORDION
+*********************************/
+
+ 
+ #faq .card {
+	margin-bottom: 30px;
+	border: 0;
+  }
+  
+   #faq .card .card-header {
+	border: 0;
+	-webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+			box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+	border-radius: 2px;
+	padding: 0;
+  }
+  
+   #faq .card .card-header .btn-header-link {
+	color: #222 !important;
+	display: block;
+	text-align: left;
+	background: #20d34a;
+	padding: 20px;
+	font-weight: 900;
+  }
+  
+   #faq .card .card-header .btn-header-link:after {
+	font-family: 'Font Awesome 5 Free';
+	content: "\f107";
+	font-weight: 900;
+	float: right;
+  }
+  
+   #faq .card .card-header .btn-header-link.collapsed {
+	background: #283290;
+	color: #fff !important;
+  }
+  
+   #faq .card .card-header .btn-header-link.collapsed:after {
+	font-family: 'Font Awesome 5 Free';
+	content: "\f106";
+  }
+  
+   #faq .card .collapsing {
+	background: #FFF;
+	line-height: 30px;
+	
+  }
+  
+  #faq .card .card-body {
+	box-shadow: 0px 15px 49px rgb(0 0 0 / 59%);
+  }
+   #faq .card .collapse {
+	border: 0;
+  }
+  
+   #faq .card .collapse.show {
+	background: #FFF;
+	line-height: 30px;
+	color: #222;
+  }

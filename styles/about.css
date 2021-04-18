@@ -410,8 +410,8 @@ section
 {
 	position: absolute;
 	top: 0;
-	left: 15px;
-	width: 216px;
+	left: 1px;
+	width: 280px;
 	height: 177px;
 	background: #FFFFFF;
 	box-shadow: 0px 31px 29px rgba(0,0,0,0.09);
@@ -846,6 +846,41 @@ section
 	margin-top: 18px;
 }
 
+
+/*********************************
+6. Text Section
+*********************************/
+
+.text_section
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 95px;
+	padding-bottom: 94px;
+}
+.text_section_image
+{
+	width: 100%;
+	border: 3px solid #20d34a;
+}
+.text_section_image img
+{
+	max-width: 100%;
+}
+.text_section_content
+{
+	width: 100%;
+	height: 100%;
+}
+.text_section_text
+{
+	margin-top: 34px;
+}
+.text_section_button
+{
+	margin-top: 52px;
+}
+
 /*********************************
 7. Testimonials
 *********************************/
@@ -926,13 +961,13 @@ section
 .team
 {
 	width: 100%;
-	background: #FFFFFF;
+	background: #ffffff;
 	padding-top: 95px;
 	padding-bottom: 89px;
 }
 .team_row
 {
-	margin-top: 74px;
+	margin-top: 35px;
 }
 .team_member
 {
@@ -941,11 +976,11 @@ section
 .team_member_image
 {
 	width: 100%;
-	height: 337px;
+	height: 140px;
 }
 .team_member_image img
 {
-	max-width: 100%;
+	max-width: 40%;
 }
 .team_member_info
 {
