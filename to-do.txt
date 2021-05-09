@@ -1,0 +1,14 @@
+-implement slider(references)
+-implelemnt section certificate
+-re-design main page slider
+-fix scaling issues on Deinosti menu
+-add scalable brilliant logo to every page
+-fix menu + drop down menu on every page
+-implement contact form
+-delete uselss code
+-change colours scheme and maybe images
+-upload on AWS
+-demo
+-host
+
+
