@@ -13,6 +13,8 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/services.css">
 <link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" type="text/css" media="screen" />
 </head>
 <body>
 
@@ -136,68 +138,96 @@
 		</div>
 	</div>
 
-	<!-- Services -->
-
-	<div class="services">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="section_title"><h2>Референции</h2></div>
-				</div>
-			</div>
-		
-			</div>
-		</div>
-	</div>
-
-	<!-- Features -->
-
-	<div class="features">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="features_container d-flex flex-row flex-wrap align-items-start justify-content-between">
-						
-						<!-- Feature -->
-						<div class="feature">
-							<div class="feature_image"><img src="images/features_4.jpg" alt=""></div>
-						</div>
-
-						<!-- Feature -->
-						<div class="feature">
-							<div class="feature_image"><img src="images/features_5.jpg" alt=""></div>
-						</div>
-
-						<!-- Feature -->
-						<div class="feature">
-							<div class="feature_image"><img src="images/features_6.jpg" alt=""></div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>		
-	</div>
-
 	<!-- Text Section -->
 
 	<div class="text_section">
 		<div class="container">
 			<div class="row">
 				
-				<!-- Text Section Image -->
-				<div class="col-lg-5">
-					<div class="text_section_image"><img src="images/text_section.jpg" alt=""></div>
-				</div>
+			
 
 				<!-- Text Section Content -->
 				<div class="col-lg-7">
 					<div class="text_section_content">
 						<div class="section_title"><h2>Сертификат</h2></div>
 						<div class="text_section_text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellen tesque in luctus ex. Praesent luctus erat sit amet tortor aliquam bibendum. Nulla ut molestie augue, scelerisque consectetur quam. Dolor sit amet, consectetur adipiscing elit. Cura bitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin.</p>
+							<p></p>
 						</div>
-						<div class="button text_section_button"><a href="#">read more</a></div>
+					</div>
+				</div>
+					<!-- Text Section Image -->
+					<div class="col-lg-5">
+						<div class="text_section_image">
+							<a href="images/certificate.jpg" data-fancybox="gallery" data-caption="Caption Images 1">
+								<img src="images/certificate.jpg" alt="Image Gallery">
+							</a>
+						</div>
+						<!-- <div class="text_section_image"><img src="images/text_section.jpg" data-fancybox="gallery" data-caption="Caption Images 1" alt=""></div> -->
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Departments -->
+
+	<div class="departments">
+		<div class="departments_background parallax-window" data-parallax="scroll" data-image-src="images/departments.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title section_title_light"><h2>Референции</h2></div>
+				</div>
+			</div>
+			<div class="row departments_row row-md-eq-height">
+				
+				<!-- Department -->
+				<div class="col-lg-3 col-md-6 dept_col">
+					<div class="dept">
+					 	<div class="dept_image">
+							<a href="images/features_4.jpg" data-fancybox="gallery" data-caption="Caption Images 2">
+								<img src="images/features_4.jpg" alt="Image Gallery">
+							</a>
+						</div>
+						<div class="dept_content text-center">
+							<div class="dept_title">ОБЩИНА КРИЧИМ</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Department -->
+				<div class="col-lg-3 col-md-6 dept_col">
+					<div class="dept">
+						<div class="dept_image">
+							<a href="images/features_5.jpg" data-fancybox="gallery" data-caption="Caption Images 3">
+								<img src="images/features_5.jpg" alt="Image Gallery">
+							</a>
+						</div>
+						<div class="dept_content text-center">
+							<div class="dept_title">ИКСЕТИК</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Department -->
+				<div class="col-lg-3 col-md-6 dept_col">
+					<div class="dept">
+						<div class="dept_image">
+							<a href="images/features_6.jpg" data-fancybox="gallery" data-caption="Caption Images 4">
+								<img src="images/features_6.jpg" alt="Image Gallery">
+							</a>
+						</div>
+						<div class="dept_content text-center">
+							<div class="dept_title">КАСТ ФУТУРА</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Department -->
+				<div class="col-lg-3 col-md-6 dept_col">
+					<div class="dept">
+						<div class="dept_text">
+							<p>Референции от избрани клиенти.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -329,5 +359,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/services.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+<script type="text/javascript" src="function.js"></script>
 </body>
 </html>
