@@ -466,7 +466,7 @@ section
 	font-size: 30px;
 	font-weight: 500;
 	color: #283290;
-	line-height: 0.75;
+	line-height: 1;
 }
 .logo_box
 {
@@ -563,7 +563,7 @@ section
 .menu_item a
 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 36px;
+	font-size: 18px;
 	font-weight: 700;
 	color: #272727;
 	-webkit-transition: all 200ms ease;
@@ -980,7 +980,7 @@ section
 }
 .team_member_image img
 {
-	max-width: 40%;
+	max-width: 30%;
 }
 .team_member_info
 {
@@ -1198,7 +1198,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #97979c;
+	color: #02021f;
 }
 .footer_social ul
 {

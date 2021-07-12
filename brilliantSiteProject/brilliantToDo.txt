@@ -1,9 +1,0 @@
-- gather all info from current website - Done
-- see design of competitor websites - Done
-- see the fastest way you can develop a good looking website that has an admin panel - Done
-- youtube brilliant new site playlist playlist
-- Wordpress?!!! Bootstrap? - Bootstrap
-
-
-E-mail notification system for current customers
-

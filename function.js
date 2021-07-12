@@ -1,13 +1,10 @@
 // Fancybox Configuration
 $('[data-fancybox="gallery"]').fancybox({
   buttons: [
+    "close",		
     "download",
-    "slideShow",
-    "thumbs",
-    "zoom",
     "fullScreen",
-    "share",
-    "close"
+    "zoom"
   ],
   loop: false,
   protect: true

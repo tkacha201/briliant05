@@ -271,7 +271,7 @@
 {
 	p
 	{
-		font-size: 13px;
+		font-size: 16px;
 	}
 	.header.scrolled
 	{
@@ -411,10 +411,27 @@
 
 @media only screen and (max-width: 479px)
 {
+	.home_text p {
+		font-size: 17px;
+	}
+	.home_text {
+		margin-top: 25px;
+	}
 	.home_title h1
 	{
-		font-size: 28px;
+		font-size: 38px;
+		margin-top: -180px;
 	}
+	.button {
+		height: 45px;
+	}
+	.button a {
+		font-size: 16px;
+		line-height: 43px;
+		padding-left: 31px;
+		padding-right: 38px;
+	}
+	
 }
 
 /************
